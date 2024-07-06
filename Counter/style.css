@@ -1,0 +1,52 @@
+body,html{
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+    background-color:lightblue;
+}
+
+
+.container{
+    width: 500px;
+    height: 300px;
+    box-shadow: 10px 10px 15px rgb(124, 116, 116),-10px -10px 15px rgb(145, 139, 139);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;/*row wise in center(verically)*/
+    align-items: center;background-color: rgb(241, 245, 139);
+}
+
+.heading{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.counter{
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    margin-top: 0rem;
+}
+
+.inc{
+    border-radius:10px;
+    font-size:larger;
+    margin-left: 0rem;
+    margin-right: 2rem;
+    padding: 10px;
+    background-color:rgb(67, 219, 125);
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.dec{
+    border-radius: 10px;
+    font-size: larger;
+    padding: 10px;
+    background-color:rgb(237, 113, 82);
+    font-family: cursive;
+    cursor: pointer;
+
+
+    
+}
