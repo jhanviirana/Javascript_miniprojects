@@ -1,0 +1,87 @@
+nav ul{
+    list-style-type: none;/*remove black dot*/
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color:rgb(0, 183, 255);
+    color:black;
+    height:80px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:inherit;
+
+}
+
+.bigContainer{
+    margin-top: 50px;
+    height:400px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,8vw);
+    grid-template-columns: repeat(3,8vw);
+    font-family: cursive;
+
+}
+
+.box{
+    border: 2px solid black ;
+    font-size:4vw;/*vw is used to make an font responsive*/
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color:lavenderblush;
+
+}
+
+.info{
+    padding:0  10vw;
+    font-family: 'Segoe UI';
+
+}
+
+.br-0{
+    border-right: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bb-0{
+    border-bottom: 0;
+}
+
+.infoo{
+    font-size:large;
+    font-weight: 400;
+}
+
+#reset{
+    width: 100px;
+    border-radius: 6px ;
+    padding: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: medium;
+}
